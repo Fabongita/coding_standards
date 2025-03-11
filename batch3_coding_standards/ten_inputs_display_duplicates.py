@@ -10,7 +10,9 @@ print("the duplicates are ", duplicates(numbers))
 x = []
 numbers = [int(input("input the number "+ str(i+1)+ ":" ))for i in range(10)]
 for i in numbers:
-    if numbers.count(i) == 1:
+    if numbers.count(i) > 1 and i not in x:
         x.append(i)
+    
+    
 print(f"the duplicates are {x}")
         
