@@ -9,4 +9,4 @@ first_number = int(input("Input the first number: "))
 second_number = int(input("Input the second number: "))
 
 #print the numbers
-print(f"The numbers between {first_number} and {second_number} are: {list(between(first_number, second_number))}")
+print(f"The numbers between {first_number} and {second_number} are:", *list(between(first_number, second_number)))

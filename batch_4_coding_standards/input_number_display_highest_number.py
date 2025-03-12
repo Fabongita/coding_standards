@@ -12,6 +12,6 @@ while True:
 #use an if statement to determine the highest number and display it
 if numbers:
     highest_number = max(numbers)
-    print(f"the highest number is {highest_number}")
+    print(f"the highest number is ", *highest_number)
 else:
     print("there is no number inputted")

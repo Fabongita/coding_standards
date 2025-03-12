@@ -14,7 +14,7 @@ if numbers:
     max_count = max(numbers.count(n) for n in numbers)
     most_duplicates = list(set(n for n in numbers if numbers.count(n) == max_count))
     print("Numbers entered:", numbers)
-    print("Most duplicated number(s):", most_duplicates)
+    print("Most duplicated number(s):", *most_duplicates)
 else:
     print("No numbers were entered.")
 

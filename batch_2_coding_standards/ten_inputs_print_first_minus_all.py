@@ -6,4 +6,4 @@ for i in numbers[1:]:
     first_number -= i
     result = first_number
 #print the statement
-print(result)
+print("The result is",result)

@@ -12,6 +12,6 @@ while True:
 #use an if statement to sort through the numbers from highest to lowest and display it
 if numbers:
     highest_number_to_lowest_number = sorted(numbers,reverse=True)
-    print(f"the numbers from highest to lowest are {highest_number_to_lowest_number}")
+    print(f"the numbers from highest to lowest are:",*highest_number_to_lowest_number)
 else:
     print("no number inputted")

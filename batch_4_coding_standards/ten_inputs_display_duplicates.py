@@ -5,4 +5,4 @@ def duplicates(numbers):
 numbers = [int(input(f"input numbers {i+1} times : "))for i in range(10)]
 
 #  Add the print statement that displays the numbers
-print("the duplicates are ", duplicates(numbers))
+print("the duplicates are ", *duplicates(numbers))

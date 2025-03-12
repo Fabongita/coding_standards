@@ -7,5 +7,5 @@ for i in input_numbers:
         all_numbers_with_duplicates.append(i)
     if input_numbers.count(i) == 1:
         all_numbers_with_duplicates.append(i)
-print(f"all of the numbers with duplicates first entry are {all_numbers_with_duplicates}")
+print(f"all of the numbers with duplicates first entry are", *all_numbers_with_duplicates)
 
