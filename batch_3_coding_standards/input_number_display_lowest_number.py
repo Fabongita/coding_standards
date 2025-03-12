@@ -1,4 +1,4 @@
-#initialize a variable for the numbers, and the highest number
+#initialize a variable for the numbers, and the lowest number
 numbers = []
 lowest_number = None
 #use a while loop and try and except for the input
@@ -9,7 +9,7 @@ while True:
         numbers.append(input_numbers)
     except ValueError:
         break
-#use an if statement to determine the highest number and display it
+#use an if statement to determine the lowest number and display it
 if numbers:
     lowest_number = min(numbers)
     print(f"the lowest number is",*lowest_number)
