@@ -5,6 +5,6 @@ input_numbers = [int(input(f"input numbers {i+1} times : "))for i in range(10)]
 for i in input_numbers:
     if input_numbers.count(i) == 1:
         all_numbers_no_duplicates.append(i)
-print(f"the numbers with no duplicates are {all_numbers_no_duplicates}")
-    
+print(f"the numbers with no duplicates are {(all_numbers_no_duplicates)}")
+
         
